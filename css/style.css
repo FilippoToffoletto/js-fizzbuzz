@@ -1,0 +1,30 @@
+.container-fluid{
+    background-color: #093B4C;
+}
+
+.container-md{
+    background-color: brown;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+    font-weight: 700;
+}
+
+.ft-container{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background-color: blue;
+    
+}
