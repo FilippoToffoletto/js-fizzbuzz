@@ -1,9 +1,8 @@
 .container-fluid{
-    background-color: #093B4C;
+    background-color: #0c7ba0;
 }
 
 .container-md{
-    background-color: brown;
 }
 
 h1{
@@ -13,28 +12,45 @@ h1{
 }
 
 .ft-container{
-    width: 900px;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .box{
-    width: 90px;
-    height: 90px;
-    margin: 5px;
+    width: 88px;
+    height: 88px;
+    margin: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1289B2;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+.box:hover{
+    box-shadow: 0 0 20px 2px black;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.box:active{
+    background-color: rgb(215, 76, 145);
+    box-shadow: none;
+}
+
+.blue{
+    background-color: #0CD6A1;
 }
 
 .green{
-    background-color: #0CD6A1;
+    background-color: #e5ee3f;
 }
 .yellow{
-    background-color: #FFD166;
+    background-color: #1EE909;
 }
 .red{
-    background-color: #F0466F;
+    background-color: #EC3536;
 }
